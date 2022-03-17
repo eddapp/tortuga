@@ -1,1 +1,4 @@
 R3V2ZiB2ZiBuIGdyZmcgYnMgUG5yZnJlIHBsY3VyZSBnYiBvbmZyNjQK
+
+
+echo "This is a test of Caeser cypher to base64" | tr '[A-Za-z]' '[N-ZA-Mn-za-m]' | base64
