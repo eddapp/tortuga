@@ -21,3 +21,7 @@ sudo netdiscover -r 10.0.2.0
 ```
 sudo nmap -sV -sN -T4 -A -O 10.0.2.10 -p-
 ```
+- Use directory buster to view the tree
+```
+dirb http://10.0.2.10/
+```
