@@ -1,0 +1,17 @@
+/* bach.css */
+@font-face {
+    font-family: 'Hentimps-Circlet';
+    src: local('Hentimps-Circlet'),
+        url("../fonts/hentimps-circlet/Hentimps_Circlet.ttf") format("truetype");
+}
+
+
+
+body {
+    padding-left: 11em;
+    padding-top: 3em;
+    font-family: Hentimps-Circlet, sans-serif;
+    font-size: 33pt;
+    color: darkred;
+    background-color: beige;
+}

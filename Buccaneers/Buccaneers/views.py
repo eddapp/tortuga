@@ -1,8 +1,21 @@
-from django.shortcuts import render, redirect
-from django.http import HttpResponse
-from django.contrib.auth import login, logout, authenticate
-from Buccaneers import *
+from django.shortcuts import render
 
 
-def home(request):
-    return render(request, 'index.html')
+def hook(request):
+    return render(request, 'hook.html')
+
+
+def plank(request):
+    return render(request, 'plank.html')
+
+
+def logn(request):
+    return render(request, 'logn.html')
+
+
+def inn(request):
+    return render(request, 'inn.html')
+
+
+def signp(request):
+    return render(request, 'signp.html')

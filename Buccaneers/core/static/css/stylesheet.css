@@ -1,0 +1,11 @@
+{% static %}
+
+@font-face {
+    font-family: 'Hentimps-Circlet';
+    src: local('Hentimps-Circlet'),
+    url("../fonts/hentimps-circlet/Hentimps_Circlet.ttf") format("truetype");
+}
+
+.h1{
+    font-size: 33pt;
+}

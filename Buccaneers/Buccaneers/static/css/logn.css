@@ -1,0 +1,13 @@
+
+@font-face {
+    font-family: 'Hentimps-Circlet';
+    src: local('Hentimps-Circlet'),
+        url("../fonts/hentimps-circlet/Hentimps_Circlet.ttf") format("truetype");
+}
+
+body {
+    font-size: 33pt;
+    font-style: italic;
+    font-family: Hentimps-Circlet, serif;
+    color: green;
+}

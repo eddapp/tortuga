@@ -1,0 +1,7 @@
+{% load static %}
+
+.h1{
+    font-size: 45pt;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-style: italic;
+}
